@@ -41,7 +41,7 @@ export default function Textarea(props) {
         <button className="btn btn-primary mx-2" onClick={handleClear}>
           Clear text
         </button>
-        <div className="container">
+        <div className="container my-3">
           <p>
             {text.split(" ").length} Words {text.length} characters
           </p>
